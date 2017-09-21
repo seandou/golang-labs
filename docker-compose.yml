@@ -4,9 +4,12 @@ services:
     container_name: golang-labs
     image: seandou/alpine-go:v1.9
     build: .
+    # restart: always
     ports:
       - "8080"
     volumes:
+      - ./etc/bashrc:/home/www/.bashrc
+
       - .gopath:/go
       - .:/home/www/go/src/github.com/seandou/golang-labs
     tty: true
