@@ -1,0 +1,17 @@
+# bashrc
+# PS1
+PS1="\u@\h:\w# "
+
+# Aliases
+alias ll='ls -l --color=auto'
+alias exit='exit 0'
+alias r='go run main.go'
+
+# Exports
+export EDITOR='vim'
+export PAGER='less'
+
+# set PATH
+export GOROOT=/usr/local/go
+export GOPATH=/go:/home/www/go
+export PATH=/home/www/go/bin:/go/bin:$GOROOT/bin:$PATH
