@@ -3,8 +3,6 @@
   "private": true,
   "description": "",
   "scripts": {
-    "get": "bash scripts/go-get.sh",
-    "go-cache-clean": "bash scripts/go-cache-clean.sh",
     "rm": "docker-compose stop && docker-compose rm",
     "exec": "docker exec -it golang-labs /bin/bash"
   },

@@ -1,14 +1,11 @@
 .DS_Store
+
 *.log
+*.swp
 
-*.retry
-*.box
-*.iso
-
-.vagrant
-
-node_modules
-
+node_modules/
 tmp/
 
 go-src
+
+golang-labs
